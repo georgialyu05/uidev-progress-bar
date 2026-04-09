@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Progress Bar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <div class="card" id="card">
+      <p class="title">Set up your workspace</p>
+      <p class="subtitle">0% completed</p>
+      <div class="progress-bar">
+        <div class="progress-track"></div>
+        <div class="progress-fill"></div>
+        <img class="progress-thumb" src="progress-thumb.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="panel" id="panel">
+      <div class="panel-content">
+        <p class="panel-title">Set up your workspace</p>
+        <p class="panel-description">Complete these steps to get the most out of Notion.</p>
+      </div>
+      <div class="task-list">
+        <div class="task">
+          <div class="task-inner">
+            <img class="task-check" src="https://www.figma.com/api/mcp/asset/1c39b5b7-3a47-4e18-a9cc-feaedab19480" alt="unchecked" />
+            <p class="task-label">Go back to your home base</p>
+          </div>
+        </div>
+        <div class="task">
+          <div class="task-inner">
+            <img class="task-check" src="https://www.figma.com/api/mcp/asset/1c39b5b7-3a47-4e18-a9cc-feaedab19480" alt="unchecked" />
+            <p class="task-label">Capture your meeting notes automatically</p>
+          </div>
+        </div>
+        <div class="task">
+          <div class="task-inner">
+            <img class="task-check" src="https://www.figma.com/api/mcp/asset/1c39b5b7-3a47-4e18-a9cc-feaedab19480" alt="unchecked" />
+            <p class="task-label">Connect your email to search everything in one place</p>
+          </div>
+        </div>
+        <div class="task">
+          <div class="task-inner">
+            <img class="task-check" src="https://www.figma.com/api/mcp/asset/1c39b5b7-3a47-4e18-a9cc-feaedab19480" alt="unchecked" />
+            <p class="task-label">Invite your team to work in one shared space</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel-footer">
+        <div class="panel-progress-bar">
+          <div class="panel-progress-fill"></div>
+        </div>
+        <p class="panel-progress-label">25% completed</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
