@@ -8,6 +8,12 @@ card.addEventListener('click', () => {
   panel.classList.toggle('panel--visible');
 });
 
+document.addEventListener('click', (e) => {
+  if (!card.contains(e.target) && !panel.contains(e.target)) {
+    panel.classList.remove('panel--visible');
+  }
+});
+
 const tasks = document.querySelectorAll('.task');
 const progressFill = document.querySelector('.panel-progress-fill');
 const progressLabel = document.querySelector('.panel-progress-label');
