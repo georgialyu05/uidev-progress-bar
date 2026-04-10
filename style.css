@@ -85,7 +85,7 @@ body {
 /* Panel */
 .panel {
   position: absolute;
-  top: 0;
+  top: -50px;
   left: calc(100% + 12px);
   background: #f9f8f7;
   border: 1px solid #e5e5e5;
